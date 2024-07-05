@@ -6,6 +6,5 @@ from core.models import Cor
 class CorSerializer(ModelSerializer):
     class Meta:
         model = Cor
-
-
-fields = "__all__"
+        
+        fields = "__all__"
