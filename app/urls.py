@@ -19,7 +19,7 @@ from core.views import (
 
 router = DefaultRouter()
 
-router.register(r"acessórios", AcessorioViewSet)
+router.register(r"acessorios", AcessorioViewSet)
 router.register(r"usuarios", UserViewSet, basename="usuarios")
 router.register(r"categorias", CategoriaViewSet)
 router.register(r"cores", CorViewSet)
